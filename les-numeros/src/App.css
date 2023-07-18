@@ -54,3 +54,7 @@
 .Entry{
   align-items: baseline;
 }
+
+.number{
+  color: rgb(200, 102, 200);
+}
