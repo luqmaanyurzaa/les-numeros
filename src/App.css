@@ -1,5 +1,10 @@
-.App {
-  text-align: center;
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #282c34;
+  justify-content: center; /* Horizontally center the child elements */
+  align-items: center; /* Vertically center the child elements */
+  height: 100vh; /* Set the container height to the full viewport height */
 }
 
 .App-logo {
@@ -35,4 +40,33 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.entry-field{
+  align-items: center;
+  padding: 4px 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(189, 9, 189);
+  border-radius: 4px;
+  background-color: rgb(49, 31, 49);
+  outline: none;
+  caret-color: rgb(200, 102, 200);
+  caret-shape: underscore;
+  caret: darkmagenta;
+  color: white;
+  font-size: large;
+}
+
+.Entry{
+  align-items: baseline;
+}
+
+.number{
+  color: rgb(200, 102, 200);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
