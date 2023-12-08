@@ -48,7 +48,13 @@
   box-sizing: border-box;
   border: 2px solid rgb(189, 9, 189);
   border-radius: 4px;
-  background-color: rgb(77, 46, 77);
+  background-color: rgb(49, 31, 49);
+  outline: none;
+  caret-color: rgb(200, 102, 200);
+  caret-shape: underscore;
+  caret: darkmagenta;
+  color: white;
+  font-size: large;
 }
 
 .Entry{
@@ -57,4 +63,10 @@
 
 .number{
   color: rgb(200, 102, 200);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
